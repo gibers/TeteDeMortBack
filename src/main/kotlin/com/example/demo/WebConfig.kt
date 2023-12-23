@@ -13,6 +13,7 @@ class WebConfig : WebMvcConfigurer {
         registry.addMapping("/**")
             .allowedOrigins("https://localhost")
             .allowedOrigins("http://localhost")
+            .allowedOrigins("https://tetedemort.de")
             .allowedMethods("GET", "POST", "PUT", "DELETE")
     }
 
