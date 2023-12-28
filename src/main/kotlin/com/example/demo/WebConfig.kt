@@ -14,6 +14,7 @@ class WebConfig : WebMvcConfigurer {
             .allowedOrigins("https://localhost")
             .allowedOrigins("http://localhost")
             .allowedOrigins("https://tetedemort.de")
+            .allowedOrigins("http://tetedemort.de")
             .allowedMethods("GET", "POST", "PUT", "DELETE")
     }
 
