@@ -9,13 +9,11 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer
 @EnableWebMvc
 class WebConfig : WebMvcConfigurer {
 
-    override fun addCorsMappings(registry: CorsRegistry) {
-        registry.addMapping("/**")
-            .allowedOrigins("https://localhost")
-            .allowedOrigins("http://localhost")
-            .allowedOrigins("https://tetedemort.de")
-            .allowedOrigins("http://tetedemort.de")
-            .allowedMethods("GET", "POST", "PUT", "DELETE")
-    }
+//    override fun addCorsMappings(registry: CorsRegistry) {
+//        registry.addMapping("/**")
+//            .allowedOrigins("htt://localhost:4200")
+//            .allowedMethods("GET", "POST", "PUT", "DELETE")
+//            .allowCredentials(true);
+//    }
 
 }
